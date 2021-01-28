@@ -16,9 +16,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 class Product extends Component{
     render(){
         let styles = {
-            margin: 'auto',
+            margin: 'auto', 
             width: '500px'
           };
+        
         return(
             <div id="product">
                 <h1 className="text-center"><span className="badge badge-primary text-wrap" >Our Products</span></h1>
